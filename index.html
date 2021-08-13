@@ -23,7 +23,6 @@
         <i class="fa fa-user"></i> Summary
       </h2>
       <section class="blocks">
-
         <div class="details user-detail" style="padding-left: 80px;">
           <header>
             <h3 style="font-weight: 100;line-height: 1.6;">
@@ -48,7 +47,7 @@
         </div>
         <div class="details">
           <header>
-            <h3>Software Engineer</h3>
+            <h3 class="designation">Software Engineer</h3>
             <span class="place">
               <h3>Mangalore Infotech Solution Pvt Ltd</h3>
             </span>
@@ -95,7 +94,7 @@
         </div>
         <div class="details">
           <header>
-            <h3>Intership</h3>
+            <h3 class="designation">Intership</h3>
             <span class="place">
               <h3>Mangalore Infotech Solution Pvt Ltd</h3>
             </span>
@@ -148,20 +147,20 @@
       <h2>
         <i class="fa fa-suitcase"></i> Persional Experience
       </h2>
-      <section class="blocks" style="margin-left: 57px;">
-        <div class="decorator" >
+      <section class="blocks ">
+        <div class="date">
         </div>
-        <div class="details" >
-          <div>
-            <ul>
-              <li>
-                Created tool which genrate automatic time table for collage/school.
-              </li>
-              <li>
-                Involved in design, planning and implementation of E-commerce website for Fr. Muller HPD.               </li>
-              </ul>
-            </ul>
-          </div>
+        <div class="decorator">
+        </div>
+        <div class="details " style="padding-top: 0;">
+          <ul>
+            <li>
+              Created tool which genrate automatic time table for collage/school.
+            </li>
+            <li>
+              Involved in design, planning and implementation of E-commerce responsive website for Fr. Muller HPD.</li>
+          </ul>
+          </ul>
         </div>
       </section>
     </section>
@@ -358,6 +357,11 @@
     line-height: 28px;
     border-width: 3px;
     font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .designation {
+    font-size: 12pt !important;
   }
 
   #main h2 {
@@ -508,10 +512,11 @@
 
   .details header {
     color: #000;
+
   }
 
   .details h3 {
-    font-size: 9pt;
+    font-size: 10pt;
   }
 
   .main-block:not(.concise) .details div {
@@ -530,12 +535,12 @@
 
   .details .place {
     float: left;
-    font-size: 7.5pt;
+    font-size: 9.5pt;
   }
 
   .details .location {
     float: right;
-    font-size: 8.9pt;
+    font-size: 9pt;
 
   }
 
@@ -565,6 +570,7 @@
   #main li {
     margin: 0 0 0.025in 0;
     line-height: 1.6;
+    font-size: 10pt;
   }
 
   /****** customize list symbol style ******/
